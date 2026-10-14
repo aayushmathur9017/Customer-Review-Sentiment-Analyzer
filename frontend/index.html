@@ -1,0 +1,1464 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Customer Review Sentiment Analyzer</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+ <style>
+/* ================= ABOUT PROJECT ================= */
+
+#aboutPage {
+    padding: 28px 48px !important;
+    background: #f4f7fb;
+    min-height: calc(100vh - 160px);
+}
+
+#aboutPage .page-header {
+    background: white;
+    padding: 24px 28px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    border-left: 5px solid #ff4650;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+#aboutPage .page-header h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    color: #102f52;
+}
+
+#aboutPage .page-header p {
+    margin: 0;
+    color: #6b7c93;
+    font-size: 15px;
+}
+
+#aboutPage .analytics-card {
+    background: white;
+    padding: 24px 28px;
+    border-radius: 14px;
+    margin-bottom: 18px;
+    border: 1px solid #e5ebf2;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#aboutPage .analytics-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+#aboutPage .analytics-card h2 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    color: #102f52;
+    font-size: 20px;
+}
+
+#aboutPage .analytics-card p {
+    color: #52657a;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+#aboutPage .analytics-card ul,
+#aboutPage .analytics-card ol {
+    color: #52657a;
+    line-height: 1.9;
+    font-size: 14px;
+    padding-left: 24px;
+}
+
+#aboutPage .analytics-card li {
+    margin-bottom: 4px;
+}
+
+#aboutPage .analytics-card strong {
+    color: #102f52;
+}
+</style>
+
+</head>
+
+
+<body>
+
+    <!-- ==========================================
+         SIDEBAR
+         ========================================== -->
+
+    <aside>
+
+        <div class="brand">
+
+            <div class="mark">✦</div>
+
+            <div>
+                <b>Bank Muscat</b>
+                
+            </div>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav>
+
+            <button class="active" data-page="dashboard">
+                ⌂ <span>Dashboard</span>
+            </button>
+
+            <button data-page="analyze">
+                ⌕ <span>Analyze Review</span>
+            </button>
+
+            <button data-page="history">
+                ▣ <span>Review History</span>
+            </button>
+
+            <button data-page="analytics">
+                ▥ <span>Analytics & Insights</span>
+            </button>
+
+            <button data-page="data">
+                ◉ <span>Data Management</span>
+            </button>
+
+            <button data-page="about">
+                ⓘ <span>About Project</span>
+            </button>
+
+        </nav>
+
+
+        <div class="tag">
+            Empowering<br>
+            People.<br>
+            Enriching Lives.
+        </div>
+
+    </aside>
+
+
+    <!-- ==========================================
+         MAIN CONTENT
+         ========================================== -->
+
+    <main>
+
+
+        <!-- ==========================================
+             HEADER
+             ========================================== -->
+
+        <header>
+
+            <div>
+
+                <h1>
+                    Customer Review Sentiment Analyzer
+                </h1>
+
+                <p>
+                    Understanding customer voices. Building a better tomorrow.
+                </p>
+
+            </div>
+
+
+            <div class="profile">
+
+
+                <b>AM</b>
+
+                Aayush Mathur
+
+            </div>
+
+        </header>
+
+
+
+        <!-- ==========================================
+             DASHBOARD - ANALYZER
+             ========================================== -->
+
+        <section class="analyzer">
+
+
+            <!-- INPUT BOX -->
+
+            <div class="inputbox">
+
+                <div class="title">
+
+                    <span class="bubble">▤</span>
+
+                    <div>
+
+                        <h2>
+                            AI-Powered Customer Review Analysis
+                        </h2>
+
+                        <p>
+                            Enter customer feedback to analyze sentiment using our NLP and machine learning model.
+                            
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <textarea
+                    id="review"
+                    maxlength="500"
+                    placeholder="Enter customer feedback here..."
+                ></textarea>
+
+
+                <div class="count">
+
+                    <span id="counter">0</span>/500
+
+                </div>
+
+
+                <div class="actions">
+
+
+                    <select id="service">
+
+                        <option>General</option>
+
+                        <option>Mobile Banking</option>
+
+                        <option>ATM Services</option>
+
+                        <option>Customer Support</option>
+
+                        <option>Loans &amp; Finance</option>
+
+                        <option>Credit Cards</option>
+
+                        <option>Branches</option>
+
+                    </select>
+
+
+                    <button id="analyze">
+
+                        ➤ Analyze Review
+
+                    </button>
+
+
+                    <button
+                        class="clear"
+                        id="clear"
+                    >
+
+                        ↻ Clear
+
+                    </button>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- RESULT BOX -->
+
+            <div
+                class="result"
+                id="result"
+            >
+
+                <h3>
+                    Sentiment Result
+                </h3>
+
+
+                <div class="resultmain">
+
+                    <div class="face">
+                        ●
+                    </div>
+
+
+                    <div>
+
+                        <strong id="sentiment">
+                            —
+                        </strong>
+
+
+                        <p>
+
+                            Confidence:
+
+                            <b id="confidence">
+                                —
+                            </b>
+
+                        </p>
+                         <div style="margin-top:15px;">
+
+    <div style="
+        display:flex;
+        justify-content:space-between;
+        margin-bottom:6px;
+        font-size:13px;
+        color:#66778e;
+    ">
+        <span>AI Confidence</span>
+        <b id="confidenceValue">0%</b>
+    </div>
+
+    <div style="
+        width:100%;
+        height:8px;
+        background:#e9eef5;
+        border-radius:10px;
+        overflow:hidden;
+    ">
+        <div
+            id="confidenceBar"
+            style="
+                width:0%;
+                height:100%;
+                background:#1b914a;
+                border-radius:10px;
+                transition:width 0.5s ease;
+            "
+        ></div>
+    </div>
+
+</div>
+                           
+                        <p>
+    Service:
+
+    <b id="resultService">
+        —
+    </b>
+</p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="message"
+                    id="message"
+                >
+
+                    Analyze a review to see the result.
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================================
+             DASHBOARD - KPI CARDS
+             ========================================== -->
+
+        <section class="kpis">
+
+
+            <div>
+
+                <span>▤</span>
+
+                <p>
+                    Total Reviews
+                </p>
+
+                <b id="total">
+                    0
+                </b>
+
+                <small>
+                    ↑ 12% vs last month
+                </small>
+
+            </div>
+
+
+            <div>
+
+                <span>☺</span>
+
+                <p>
+                    Positive Reviews
+                </p>
+
+                <b id="positive">
+                    0%
+                </b>
+
+                <small>
+                    ↑ 5% vs last month
+                </small>
+
+            </div>
+
+
+            <div>
+
+                <span>●</span>
+
+                <p>
+                    Neutral Reviews
+                </p>
+
+                <b id="neutral">
+                    0%
+                </b>
+
+                <small>
+                    ↓ 2% vs last month
+                </small>
+
+            </div>
+
+
+            <div>
+
+                <span>☹</span>
+
+                <p>
+                    Negative Reviews
+                </p>
+
+                <b id="negative">
+                    0%
+                </b>
+
+                <small>
+                    ↓ 3% vs last month
+                </small>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ==========================================
+             DASHBOARD - CHARTS
+             ========================================== -->
+
+        <section class="charts">
+
+
+            <!-- SENTIMENT DISTRIBUTION -->
+
+            <div class="card">
+
+                <h3>
+                    Sentiment Distribution
+                </h3>
+
+                <canvas id="donut"></canvas>
+
+            </div>
+
+
+
+            <!-- SERVICE-WISE SENTIMENT -->
+
+            <div class="card">
+
+                <h3>
+                    Service-wise Sentiment
+                </h3>
+
+                <div id="services"></div>
+
+            </div>
+
+
+
+            <!-- MONTHLY TREND -->
+
+            <div class="card">
+
+                <h3>
+                    Monthly Sentiment Trend
+                </h3>
+
+                <canvas id="trend"></canvas>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ==========================================
+             DASHBOARD - BOTTOM SECTION
+             ========================================== -->
+
+        <section class="bottom">
+
+
+            <!-- POSITIVE KEYWORDS -->
+
+            <div class="card">
+
+                <h3>
+                    Common Keywords (Positive)
+                </h3>
+
+
+                <div class="words positive">
+
+                    easy to use
+
+                    <span>
+                        great service
+                    </span>
+
+                    secure
+
+                    <small>
+                        helpful
+                    </small>
+
+                    fast
+
+                    <small>
+                        friendly staff
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- NEGATIVE KEYWORDS -->
+
+            <div class="card">
+
+                <h3>
+                    Common Keywords (Negative)
+                </h3>
+
+
+                <div class="words negative">
+
+                    transaction failed
+
+                    <span>
+                        app issues
+                    </span>
+
+                    long waiting time
+
+                    <small>
+                        poor service
+                    </small>
+
+                    unresponsive
+
+                    <small>
+                        hidden charges
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- RECENT REVIEWS -->
+
+            <div class="card recent">
+
+                <h3>
+
+                    Recent Reviews
+
+                    <a
+                        href="#"
+                        onclick="loadReviews(); return false;"
+                    >
+                        View All →
+                    </a>
+
+                </h3>
+
+
+                <div id="recent"></div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ==========================================
+             REVIEW HISTORY
+             ========================================== -->
+
+        <section
+            id="historyPage"
+            style="display:none; margin:24px 48px;"
+        >
+
+
+            <div
+                class="card"
+                style="min-height:auto;"
+            >
+
+
+                <div
+                    style="
+                        display:flex;
+                        justify-content:space-between;
+                        align-items:center;
+                        margin-bottom:20px;
+                    "
+                >
+
+                    <div>
+
+                        <h2 style="margin:0 0 5px;">
+                            Review History
+                        </h2>
+
+
+                        <p
+                            style="
+                                margin:0;
+                                color:#66778e;
+                            "
+                        >
+                            View and search previously analyzed customer reviews.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- FILTERS -->
+
+                <div
+                    style="
+                        display:grid;
+                        grid-template-columns:2fr 1fr 1fr;
+                        gap:12px;
+                        margin-bottom:20px;
+                    "
+                >
+
+
+                    <input
+                        id="historySearch"
+                        type="text"
+                        placeholder="Search reviews..."
+                        style="
+                            padding:13px;
+                            border:1px solid #d6dfeb;
+                            border-radius:8px;
+                            font:inherit;
+                        "
+                    >
+
+
+                    <select
+                        id="historyService"
+                        style="
+                            padding:13px;
+                            border:1px solid #d6dfeb;
+                            border-radius:8px;
+                            font:inherit;
+                            background:#edf2f7;
+                        "
+                    >
+
+                        <option value="All">
+                            All Services
+                        </option>
+
+                        <option value="Mobile Banking">
+                            Mobile Banking
+                        </option>
+
+                        <option value="ATM Services">
+                            ATM Services
+                        </option>
+
+                        <option value="Customer Support">
+                            Customer Support
+                        </option>
+
+                        <option value="Loans & Finance">
+                            Loans & Finance
+                        </option>
+
+                        <option value="Credit Cards">
+                            Credit Cards
+                        </option>
+
+                        <option value="Branches">
+                            Branches
+                        </option>
+
+                    </select>
+
+
+                    <select
+                        id="historySentiment"
+                        style="
+                            padding:13px;
+                            border:1px solid #d6dfeb;
+                            border-radius:8px;
+                            font:inherit;
+                            background:#edf2f7;
+                        "
+                    >
+
+                        <option value="All">
+                            All Sentiments
+                        </option>
+
+                        <option value="Positive">
+                            Positive
+                        </option>
+
+                        <option value="Neutral">
+                            Neutral
+                        </option>
+
+                        <option value="Negative">
+                            Negative
+                        </option>
+
+                    </select>
+
+
+                </div>
+
+
+
+                <!-- REVIEW LIST -->
+
+                <div id="historyList">
+
+                    <p style="color:#718096;">
+                        Loading reviews...
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================================
+             ANALYTICS & INSIGHTS
+             ========================================== -->
+
+        <section
+            id="analyticsPage"
+            style="display:none; margin:24px 48px;"
+        >
+
+
+            <div style="margin-bottom:20px;">
+
+                <h2 style="margin:0 0 5px;">
+                    Analytics & Insights
+                </h2>
+
+                <p style="margin:0; color:#66778e;">
+                    Business insights derived from customer sentiment data.
+                </p>
+
+            </div>
+
+
+
+            <!-- ANALYTICS KPI CARDS -->
+
+            <div
+                class="kpis"
+                style="margin:0 0 20px;"
+            >
+
+
+                <div>
+
+                    <span>▤</span>
+
+                    <p>
+                        Total Reviews
+                    </p>
+
+                    <b id="analyticsTotal">
+                        0
+                    </b>
+
+                </div>
+
+
+                <div>
+
+                    <span>☺</span>
+
+                    <p>
+                        Positive Sentiment
+                    </p>
+
+                    <b id="analyticsPositive">
+                        0%
+                    </b>
+
+                </div>
+
+
+                <div>
+
+                    <span>☹</span>
+
+                    <p>
+                        Negative Sentiment
+                    </p>
+
+                    <b id="analyticsNegative">
+                        0%
+                    </b>
+
+                </div>
+
+
+                <div>
+
+                    <span>★</span>
+
+                    <p>
+                        Model Confidence
+                    </p>
+
+                    <b id="analyticsConfidence">
+                        0%
+                    </b>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- BEST / WORST SERVICE -->
+
+            <div
+                class="charts"
+                style="
+                    grid-template-columns:1fr 1fr;
+                    margin:0 0 20px;
+                "
+            >
+
+
+                <!-- BEST SERVICE -->
+
+                <div class="card">
+
+                    <h3>
+                        🏆 Best Performing Service
+                    </h3>
+
+
+                    <div
+                        id="bestService"
+                        style="
+                            font-size:25px;
+                            font-weight:800;
+                            margin-top:25px;
+                            color:#1b914a;
+                        "
+                    >
+                        —
+                    </div>
+
+
+                    <p
+                        id="bestServiceDetails"
+                        style="color:#718096;"
+                    >
+                        No data available
+                    </p>
+
+                </div>
+
+
+
+                <!-- WORST SERVICE -->
+
+                <div class="card">
+
+                    <h3>
+                        ⚠️ Service Requiring Attention
+                    </h3>
+
+
+                    <div
+                        id="worstService"
+                        style="
+                            font-size:25px;
+                            font-weight:800;
+                            margin-top:25px;
+                            color:#e74b52;
+                        "
+                    >
+                        —
+                    </div>
+
+
+                    <p
+                        id="worstServiceDetails"
+                        style="color:#718096;"
+                    >
+                        No data available
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- BUSINESS INSIGHTS -->
+
+            <div
+                class="card"
+                style="margin-bottom:20px;"
+            >
+
+                <h3>
+                    💡 Business Insights
+                </h3>
+
+
+                <div id="insightsList">
+
+                    <p style="color:#718096;">
+                        Loading insights...
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SERVICE PERFORMANCE -->
+
+            <div class="card">
+
+                <h3>
+                    Service Performance Analysis
+                </h3>
+
+
+                <div id="analyticsServices">
+
+                    <p style="color:#718096;">
+                        Loading service analysis...
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- ==========================================
+     DATA MANAGEMENT
+     ========================================== -->
+
+<section
+    id="dataPage"
+    style="display:none; margin:24px 48px;"
+>
+
+    <div style="margin-bottom:20px;">
+
+        <h2 style="margin:0 0 5px;">
+            Data Management
+        </h2>
+
+        <p style="margin:0; color:#66778e;">
+            Manage and monitor the customer feedback dataset used for analysis.
+        </p>
+
+    </div>
+
+
+    <div class="kpis" style="margin:0 0 20px;">
+
+        <div>
+            <span>📊</span>
+            <p>Total Records</p>
+            <b id="dataTotal">0</b>
+        </div>
+
+        <div>
+            <span>📝</span>
+            <p>Text Reviews</p>
+            <b id="dataTextReviews">0</b>
+        </div>
+
+        <div>
+            <span>🏦</span>
+            <p>Services</p>
+            <b id="dataServices">0</b>
+        </div>
+
+        <div>
+            <span>🤖</span>
+            <p>Analyzed Reviews</p>
+            <b id="dataAnalyzed">0</b>
+        </div>
+
+    </div>
+
+
+    <div class="card" style="margin-bottom:20px;">
+            <div class="card" style="
+        margin-bottom:20px;
+        background:#f8fbff;
+        border-left:4px solid #17365d;
+    ">
+
+        <h3 style="margin-bottom:8px;">
+            📌 Data Status
+        </h3>
+
+        <p style="
+            margin:0;
+            color:#718096;
+            font-size:13px;
+        ">
+            The dashboard is connected to the customer review database
+            and updates automatically when new reviews are analyzed.
+        </p>
+
+        <div style="
+            display:flex;
+            align-items:center;
+            gap:8px;
+            margin-top:14px;
+            color:#159447;
+            font-size:13px;
+            font-weight:600;
+        ">
+            <span style="
+                width:9px;
+                height:9px;
+                background:#159447;
+                border-radius:50%;
+                display:inline-block;
+            "></span>
+
+            Database Connected
+        </div>
+
+    </div>
+
+        <h3>📁 Dataset Information</h3>
+
+        <div style="
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:18px;
+            margin-top:20px;
+        ">
+
+            <div style="
+                padding:18px;
+                background:#f4f7fb;
+                border-radius:10px;
+            ">
+                <p style="
+                    margin:0 0 6px;
+                    color:#718096;
+                    font-size:13px;
+                ">
+                    Dataset Name
+                </p>
+
+                <strong>
+                    Bank Muscat Customer Reviews
+                </strong>
+            </div>
+
+
+            <div style="
+                padding:18px;
+                background:#f4f7fb;
+                border-radius:10px;
+            ">
+                <p style="
+                    margin:0 0 6px;
+                    color:#718096;
+                    font-size:13px;
+                ">
+                    Data Source
+                </p>
+
+                <strong>
+                    Academic / Demo Dataset
+                </strong>
+            </div>
+
+
+            <div style="
+                padding:18px;
+                background:#f4f7fb;
+                border-radius:10px;
+            ">
+                <p style="
+                    margin:0 0 6px;
+                    color:#718096;
+                    font-size:13px;
+                ">
+                    Format
+                </p>
+
+                <strong>
+                    CSV / SQLite
+                </strong>
+            </div>
+
+
+            <div style="
+                padding:18px;
+                background:#f4f7fb;
+                border-radius:10px;
+            ">
+                <p style="
+                    margin:0 0 6px;
+                    color:#718096;
+                    font-size:13px;
+                ">
+                    Processing
+                </p>
+
+                <strong>
+                    NLP + Machine Learning
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>✅ Data Quality Overview</h3>
+
+        <div style="margin-top:20px;">
+
+            <div style="
+                display:flex;
+                justify-content:space-between;
+                padding:14px 0;
+                border-bottom:1px solid #edf1f5;
+            ">
+                <span>Missing Reviews</span>
+
+                <strong style="color:#1b914a;">
+                    0
+                </strong>
+            </div>
+            <div style="
+    margin-top:18px;
+    padding:16px;
+    background:#ecfdf3;
+    border:1px solid #b7ebcc;
+    border-radius:10px;
+">
+
+    <div style="
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    ">
+
+        <div>
+            <strong style="
+                color:#166534;
+                font-size:15px;
+            ">
+                Overall Data Quality
+            </strong>
+
+            <p style="
+                margin:5px 0 0;
+                color:#4b7a5c;
+                font-size:13px;
+            ">
+                Dataset is clean and ready for analysis.
+            </p>
+        </div>
+
+        <span style="
+            padding:6px 14px;
+            background:#1b914a;
+            color:white;
+            border-radius:20px;
+            font-size:12px;
+            font-weight:600;
+        ">
+            Good
+        </span>
+
+    </div>
+
+</div>
+            
+
+
+            <div style="
+                display:flex;
+                justify-content:space-between;
+                padding:14px 0;
+                border-bottom:1px solid #edf1f5;
+            ">
+                <span>Duplicate Records</span>
+
+                <strong style="color:#1b914a;">
+                    0
+                </strong>
+            </div>
+
+
+            <div style="
+                display:flex;
+                justify-content:space-between;
+                padding:14px 0;
+                border-bottom:1px solid #edf1f5;
+            ">
+                <span>Sentiment Labels</span>
+
+                <strong style="color:#1b914a;">
+                    Positive / Neutral / Negative
+                </strong>
+            </div>
+
+
+            <div style="
+                display:flex;
+                justify-content:space-between;
+                padding:14px 0;
+            ">
+                <span>Dataset Status</span>
+
+                <strong style="color:#1b914a;">
+                    Ready for Analysis ✓
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+<!-- Export Report -->
+<div class="analytics-card" style="margin-top:20px;">
+
+    <h2>📥 Export Analytics Report</h2>
+
+    <p>
+        Download analyzed customer reviews and sentiment results
+        for further analysis or reporting.
+    </p>
+
+    <button
+        onclick="exportAnalyticsReport()"
+        style="
+            background:#ff4650;
+            color:white;
+            border:none;
+            padding:12px 22px;
+            border-radius:8px;
+            font-size:14px;
+            font-weight:600;
+            cursor:pointer;
+        "
+    >
+        ⬇ Download CSV Report
+    </button>
+
+</div>
+</section>
+
+
+
+        <!-- ==========================================
+             FOOTER
+             ========================================== -->
+
+        <footer>
+
+            Bank Muscat Customer Feedback Analytics •
+            Demo project for academic use
+
+        </footer>
+<!-- ================= ABOUT PROJECT ================= -->
+
+<section id="aboutPage" style="display:none; margin:24px 48px;">
+
+    <div class="page-header">
+        <h1>About Project</h1>
+        <p>Bank Muscat Customer Feedback & Sentiment Analytics System</p>
+    </div>
+
+    <!-- Project Overview -->
+    <div class="analytics-card">
+        <h2>🏦 Project Overview</h2>
+
+        <p>
+            The Bank Muscat Customer Feedback & Sentiment Analytics System
+            is a data analytics and machine learning based application
+            designed to analyze customer reviews and identify their
+            sentiment as Positive, Neutral, or Negative.
+        </p>
+    </div>
+
+    <!-- Objective -->
+    <div class="analytics-card">
+        <h2>🎯 Project Objective</h2>
+
+        <p>
+            The main objective of this project is to convert customer
+            feedback into meaningful insights that can help identify
+            customer satisfaction, service issues, and areas requiring
+            improvement.
+        </p>
+    </div>
+
+    <!-- AI / ML -->
+    <div class="analytics-card">
+        <h2>🤖 AI / Machine Learning Technology</h2>
+
+        <p>
+            The system uses Natural Language Processing (NLP) and a
+            Machine Learning model to analyze customer review text.
+        </p>
+
+        <ul>
+            <li>Text preprocessing</li>
+            <li>TF-IDF feature extraction</li>
+            <li>Logistic Regression classification</li>
+            <li>Sentiment prediction</li>
+            <li>Confidence score calculation</li>
+        </ul>
+    </div>
+
+    <!-- Data Analytics -->
+    <div class="analytics-card">
+        <h2>📊 Data Analytics</h2>
+
+        <p>
+            The system provides analytical insights through KPIs,
+            sentiment distribution, service-wise analysis, review
+            history, and business insights.
+        </p>
+
+        <ul>
+            <li>Overall sentiment analysis</li>
+            <li>Service-wise sentiment comparison</li>
+            <li>Positive and negative feedback analysis</li>
+            <li>Customer review history</li>
+            <li>Business insights</li>
+        </ul>
+    </div>
+
+    <!-- Workflow -->
+    <div class="analytics-card">
+        <h2>🔄 System Workflow</h2>
+
+        <ol>
+            <li>Customer review is entered into the system.</li>
+            <li>Review text is processed using NLP.</li>
+            <li>TF-IDF converts text into numerical features.</li>
+            <li>Machine Learning model predicts sentiment.</li>
+            <li>Prediction is stored in the SQLite database.</li>
+            <li>Analytics dashboard displays useful insights.</li>
+        </ol>
+    </div>
+
+    <!-- Technologies -->
+    <div class="analytics-card">
+        <h2>🛠️ Technologies Used</h2>
+
+        <ul>
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Backend:</strong> Python, FastAPI</li>
+            <li><strong>Machine Learning:</strong> Scikit-learn</li>
+            <li><strong>Data Processing:</strong> Pandas, NLP</li>
+            <li><strong>Database:</strong> SQLite</li>
+            <li><strong>Visualization:</strong> JavaScript Charts</li>
+        </ul>
+    </div>
+
+    <!-- Scope -->
+    <div class="analytics-card">
+        <h2>📌 Project Scope</h2>
+
+        <p>
+            This project demonstrates how Artificial Intelligence,
+            Machine Learning, and Data Analytics can be combined to
+            transform customer feedback into actionable business
+            insights for banking services.
+        </p>
+    </div>
+
+</section>
+
+    </main>
+
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+         ========================================== -->
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

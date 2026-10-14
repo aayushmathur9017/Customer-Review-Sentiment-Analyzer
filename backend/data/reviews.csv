@@ -1,0 +1,601 @@
+review,sentiment,service
+I am very satisfied with the banking service.,Positive,Customer Support
+The ATM was clean and available when I needed it.,Positive,Online Banking
+The credit card service has been excellent.,Positive,Customer Support
+Customer support was helpful and resolved my issue immediately.,Positive,Online Banking
+I downloaded the banking application.,Neutral,Online Banking
+I have a credit card from the bank.,Neutral,Branches
+The branch staff were friendly and professional.,Positive,Loans & Finance
+I submitted a loan application.,Neutral,Cards
+The mobile app is convenient and reliable.,Positive,Mobile Banking
+The mobile banking app keeps crashing and is difficult to use.,Negative,Loans & Finance
+My issue was resolved professionally.,Positive,Branches
+The customer service team was very supportive.,Positive,Cards
+The branch staff were friendly and professional.,Positive,Customer Support
+The ATM service was excellent and the transaction completed quickly.,Positive,ATM Services
+I submitted a loan application.,Neutral,Customer Support
+Customer support did not resolve my complaint.,Negative,Online Banking
+I used online banking for a transfer.,Neutral,Branches
+I checked my balance using the mobile app.,Neutral,Customer Support
+The bank sent me a transaction notification.,Neutral,Loans & Finance
+Customer support was helpful and resolved my issue immediately.,Positive,Cards
+The ATM was clean and available when I needed it.,Positive,Mobile Banking
+I am very satisfied with the banking service.,Positive,Mobile Banking
+The mobile app is convenient and reliable.,Positive,Online Banking
+The ATM is available at my local branch.,Neutral,Customer Support
+The staff provided information about my account.,Neutral,Loans & Finance
+The banking application has frequent errors.,Negative,Branches
+Online banking works perfectly for my daily transactions.,Positive,Mobile Banking
+The mobile banking app keeps crashing and is difficult to use.,Negative,Mobile Banking
+The staff explained everything clearly.,Positive,Online Banking
+I contacted customer support about my account.,Neutral,ATM Services
+The ATM was not working and my transaction failed.,Negative,Online Banking
+I visited the branch in the morning.,Neutral,Branches
+The banking experience was frustrating.,Negative,Branches
+My issue was resolved professionally.,Positive,Cards
+The card payment was smooth and secure.,Positive,ATM Services
+The bank sent me a transaction notification.,Neutral,Branches
+I opened a new account last month.,Neutral,Customer Support
+The mobile app is slow and frequently unavailable.,Negative,Customer Support
+Online banking is not working properly.,Negative,Online Banking
+I used the mobile banking app today.,Neutral,Online Banking
+I made a card payment yesterday.,Neutral,Online Banking
+The bank responded quickly to my complaint.,Positive,Mobile Banking
+The bank took too long to respond to my complaint.,Negative,ATM Services
+The credit card service has been excellent.,Positive,Online Banking
+The staff provided information about my account.,Neutral,Customer Support
+The transaction failed without a clear reason.,Negative,Cards
+The ATM was out of service when I needed cash.,Negative,Customer Support
+The bank responded quickly to my complaint.,Positive,Online Banking
+I am very disappointed with the banking service.,Negative,Online Banking
+I am very disappointed with the banking service.,Negative,Online Banking
+The branch staff were friendly and professional.,Positive,ATM Services
+The bank responded quickly to my complaint.,Positive,Loans & Finance
+The bank took too long to respond to my complaint.,Negative,Mobile Banking
+The staff provided information about my account.,Neutral,Branches
+The transaction failed without a clear reason.,Negative,ATM Services
+The bank responded quickly to my complaint.,Positive,Loans & Finance
+I appreciate the fast and secure banking experience.,Positive,Online Banking
+My issue was resolved professionally.,Positive,Cards
+I submitted a loan application.,Neutral,Loans & Finance
+The ATM is available at my local branch.,Neutral,ATM Services
+Customer support did not resolve my complaint.,Negative,Branches
+Online banking works perfectly for my daily transactions.,Positive,Cards
+I have a credit card from the bank.,Neutral,Loans & Finance
+I am very satisfied with the banking service.,Positive,Cards
+The staff provided information about my account.,Neutral,Customer Support
+The transaction failed without a clear reason.,Negative,Mobile Banking
+The loan process was confusing and took too long.,Negative,Customer Support
+My issue is still unresolved.,Negative,ATM Services
+I contacted the bank regarding a transaction.,Neutral,Cards
+The bank took too long to respond to my complaint.,Negative,Mobile Banking
+My issue is still unresolved.,Negative,Cards
+The branch staff were rude and unhelpful.,Negative,Loans & Finance
+The ATM is available at my local branch.,Neutral,ATM Services
+I used online banking for a transfer.,Neutral,Mobile Banking
+My issue was resolved professionally.,Positive,Cards
+The service quality is very poor.,Negative,Customer Support
+The loan process was simple and well explained.,Positive,ATM Services
+I contacted customer support about my account.,Neutral,Branches
+The service quality is very good.,Positive,Customer Support
+The mobile banking app keeps crashing and is difficult to use.,Negative,Mobile Banking
+The mobile banking app is easy to use and very fast.,Positive,Online Banking
+The mobile app is convenient and reliable.,Positive,ATM Services
+The mobile app is convenient and reliable.,Positive,Cards
+The mobile banking app is easy to use and very fast.,Positive,Loans & Finance
+The ATM was clean and available when I needed it.,Positive,Branches
+I am very disappointed with the banking service.,Negative,Cards
+The branch staff were friendly and professional.,Positive,ATM Services
+The bank took too long to respond to my complaint.,Negative,Cards
+I visited the branch to update my details.,Neutral,Branches
+Customer support did not resolve my complaint.,Negative,Branches
+Online banking is not working properly.,Negative,Cards
+The loan process was simple and well explained.,Positive,ATM Services
+The transaction was completed without any problem.,Positive,Loans & Finance
+The staff explained everything clearly.,Positive,ATM Services
+I am very satisfied with the banking service.,Positive,Branches
+The mobile banking app keeps crashing and is difficult to use.,Negative,Online Banking
+I contacted customer support about my account.,Neutral,ATM Services
+I appreciate the fast and secure banking experience.,Positive,Branches
+Online banking works perfectly for my daily transactions.,Positive,Online Banking
+I checked my balance using the mobile app.,Neutral,Loans & Finance
+The credit card service has many problems.,Negative,Online Banking
+The ATM service was excellent and the transaction completed quickly.,Positive,Loans & Finance
+I used online banking for a transfer.,Neutral,Online Banking
+The transaction was completed without any problem.,Positive,Loans & Finance
+The ATM was clean and available when I needed it.,Positive,Online Banking
+The service quality is very poor.,Negative,ATM Services
+Opening the account took too much time.,Negative,Cards
+The bank took too long to respond to my complaint.,Negative,Branches
+The customer service team was unresponsive.,Negative,Online Banking
+I completed a bank transaction today.,Neutral,Customer Support
+Opening the account took too much time.,Negative,Loans & Finance
+The ATM was out of service when I needed cash.,Negative,Branches
+The credit card service has many problems.,Negative,Loans & Finance
+The ATM was out of service when I needed cash.,Negative,Loans & Finance
+I am very disappointed with the banking service.,Negative,Loans & Finance
+I used online banking for a transfer.,Neutral,Loans & Finance
+The bank responded quickly to my complaint.,Positive,Branches
+The staff explained everything clearly.,Positive,Online Banking
+I appreciate the fast and secure banking experience.,Positive,Online Banking
+I submitted a loan application.,Neutral,Loans & Finance
+I used the mobile banking app today.,Neutral,Cards
+The branch staff were friendly and professional.,Positive,Mobile Banking
+The ATM is available at my local branch.,Neutral,Branches
+The staff provided information about my account.,Neutral,Branches
+Online banking is not working properly.,Negative,ATM Services
+The transaction was completed without any problem.,Positive,Customer Support
+My issue was resolved professionally.,Positive,Branches
+The ATM was clean and available when I needed it.,Positive,Mobile Banking
+The staff provided information about my account.,Neutral,Loans & Finance
+I completed a bank transaction today.,Neutral,Branches
+Online banking works perfectly for my daily transactions.,Positive,Online Banking
+The branch staff were rude and unhelpful.,Negative,Customer Support
+The customer service team was very supportive.,Positive,Online Banking
+The mobile app is slow and frequently unavailable.,Negative,Loans & Finance
+I completed a bank transaction today.,Neutral,Branches
+The bank sent me a transaction notification.,Neutral,Online Banking
+The staff provided information about my account.,Neutral,Mobile Banking
+The bank sent me a transaction notification.,Neutral,Customer Support
+I visited the branch to update my details.,Neutral,Mobile Banking
+The branch staff were rude and unhelpful.,Negative,Online Banking
+The mobile banking app keeps crashing and is difficult to use.,Negative,Cards
+I submitted a loan application.,Neutral,Customer Support
+I have a credit card from the bank.,Neutral,Mobile Banking
+I downloaded the banking application.,Neutral,Cards
+The ATM is available at my local branch.,Neutral,ATM Services
+I opened a new account last month.,Neutral,ATM Services
+The mobile app is slow and frequently unavailable.,Negative,Branches
+The ATM was not working and my transaction failed.,Negative,Customer Support
+The transaction failed without a clear reason.,Negative,Cards
+The ATM service was excellent and the transaction completed quickly.,Positive,Loans & Finance
+I am very satisfied with the banking service.,Positive,Cards
+The card payment was smooth and secure.,Positive,Loans & Finance
+The customer service team was very supportive.,Positive,Mobile Banking
+The mobile app is convenient and reliable.,Positive,Loans & Finance
+The mobile app is convenient and reliable.,Positive,ATM Services
+The mobile app is slow and frequently unavailable.,Negative,Branches
+The mobile app is convenient and reliable.,Positive,Loans & Finance
+My issue was resolved professionally.,Positive,Mobile Banking
+Online banking is not working properly.,Negative,Loans & Finance
+Online banking is not working properly.,Negative,ATM Services
+I have a bank account with the bank.,Neutral,Customer Support
+The ATM was out of service when I needed cash.,Negative,Online Banking
+The banking application has a great user experience.,Positive,Mobile Banking
+I visited the branch in the morning.,Neutral,Cards
+I am very disappointed with the banking service.,Negative,Branches
+I checked my balance using the mobile app.,Neutral,Mobile Banking
+The banking application has a great user experience.,Positive,Mobile Banking
+I used the mobile banking app today.,Neutral,Loans & Finance
+I completed a bank transaction today.,Neutral,Customer Support
+The ATM was not working and my transaction failed.,Negative,Cards
+Online banking works perfectly for my daily transactions.,Positive,ATM Services
+Customer support did not resolve my complaint.,Negative,Online Banking
+The service quality is very poor.,Negative,ATM Services
+The staff provided information about my account.,Neutral,Mobile Banking
+Customer support did not resolve my complaint.,Negative,ATM Services
+The transaction failed without a clear reason.,Negative,Loans & Finance
+I am very satisfied with the banking service.,Positive,Online Banking
+The credit card service has been excellent.,Positive,Mobile Banking
+The customer service team was unresponsive.,Negative,ATM Services
+The ATM service was excellent and the transaction completed quickly.,Positive,Mobile Banking
+The bank took too long to respond to my complaint.,Negative,Mobile Banking
+The transaction failed without a clear reason.,Negative,Mobile Banking
+The branch staff were friendly and professional.,Positive,Cards
+The banking application has a great user experience.,Positive,Loans & Finance
+The mobile app is convenient and reliable.,Positive,Customer Support
+Customer support did not resolve my complaint.,Negative,Loans & Finance
+The mobile app is slow and frequently unavailable.,Negative,Mobile Banking
+I contacted customer support about my account.,Neutral,Customer Support
+I visited the branch in the morning.,Neutral,Cards
+The mobile banking app keeps crashing and is difficult to use.,Negative,ATM Services
+I checked the available balance.,Neutral,Online Banking
+Online banking works perfectly for my daily transactions.,Positive,ATM Services
+The banking application has frequent errors.,Negative,ATM Services
+The mobile app is slow and frequently unavailable.,Negative,ATM Services
+Customer support was helpful and resolved my issue immediately.,Positive,Cards
+The ATM is located near the branch entrance.,Neutral,Mobile Banking
+The staff explained everything clearly.,Positive,ATM Services
+My card payment failed several times.,Negative,Online Banking
+The transaction failed without a clear reason.,Negative,Online Banking
+The ATM was clean and available when I needed it.,Positive,ATM Services
+The staff provided information about my account.,Neutral,Online Banking
+I opened a new account last month.,Neutral,ATM Services
+I visited the branch to update my details.,Neutral,Online Banking
+I completed a bank transaction today.,Neutral,Online Banking
+The service quality is very poor.,Negative,Cards
+The mobile banking app is easy to use and very fast.,Positive,Branches
+The bank responded quickly to my complaint.,Positive,Cards
+The loan process was confusing and took too long.,Negative,Online Banking
+The ATM is located near the branch entrance.,Neutral,Loans & Finance
+The ATM was out of service when I needed cash.,Negative,Cards
+The loan process was simple and well explained.,Positive,Customer Support
+I checked the available balance.,Neutral,ATM Services
+The credit card service has been excellent.,Positive,Mobile Banking
+The transaction failed without a clear reason.,Negative,ATM Services
+My card payment failed several times.,Negative,ATM Services
+The loan process was simple and well explained.,Positive,Branches
+I visited the branch to update my details.,Neutral,Online Banking
+The bank sent me a transaction notification.,Neutral,Customer Support
+I downloaded the banking application.,Neutral,Cards
+The bank sent me a transaction notification.,Neutral,Cards
+The banking experience was frustrating.,Negative,ATM Services
+I appreciate the fast and secure banking experience.,Positive,ATM Services
+My issue is still unresolved.,Negative,Customer Support
+The staff did not explain the charges properly.,Negative,Customer Support
+The mobile app is slow and frequently unavailable.,Negative,Branches
+I visited the branch in the morning.,Neutral,Online Banking
+I checked the available balance.,Neutral,Loans & Finance
+The staff did not explain the charges properly.,Negative,Online Banking
+I downloaded the banking application.,Neutral,Branches
+I contacted the bank regarding a transaction.,Neutral,Cards
+The branch staff were friendly and professional.,Positive,Customer Support
+The banking experience was frustrating.,Negative,ATM Services
+The ATM was not working and my transaction failed.,Negative,Online Banking
+I have a bank account with the bank.,Neutral,ATM Services
+The service quality is very poor.,Negative,Online Banking
+The service quality is very good.,Positive,Mobile Banking
+The customer service team was very supportive.,Positive,Customer Support
+The ATM service was excellent and the transaction completed quickly.,Positive,ATM Services
+The staff explained everything clearly.,Positive,Mobile Banking
+The service quality is very poor.,Negative,Cards
+I submitted a loan application.,Neutral,Loans & Finance
+The bank sent me a transaction notification.,Neutral,Cards
+The staff provided information about my account.,Neutral,Mobile Banking
+The ATM service was excellent and the transaction completed quickly.,Positive,Loans & Finance
+I checked my balance using the mobile app.,Neutral,Cards
+The banking experience was frustrating.,Negative,Cards
+The staff provided information about my account.,Neutral,Cards
+The loan process was simple and well explained.,Positive,Mobile Banking
+The mobile banking app keeps crashing and is difficult to use.,Negative,Customer Support
+The credit card service has been excellent.,Positive,Cards
+I am very disappointed with the banking service.,Negative,Loans & Finance
+The staff provided information about my account.,Neutral,Branches
+I used the mobile banking app today.,Neutral,Mobile Banking
+I used online banking for a transfer.,Neutral,Loans & Finance
+My issue is still unresolved.,Negative,Customer Support
+The credit card service has many problems.,Negative,Cards
+Customer support did not resolve my complaint.,Negative,Customer Support
+The loan process was confusing and took too long.,Negative,Mobile Banking
+The customer service team was unresponsive.,Negative,Cards
+The customer service team was unresponsive.,Negative,Loans & Finance
+I contacted the bank regarding a transaction.,Neutral,Cards
+The staff explained everything clearly.,Positive,ATM Services
+The bank sent me a transaction notification.,Neutral,Online Banking
+The credit card service has been excellent.,Positive,ATM Services
+I checked the available balance.,Neutral,Branches
+Customer support did not resolve my complaint.,Negative,Online Banking
+The loan process was simple and well explained.,Positive,Online Banking
+The staff did not explain the charges properly.,Negative,Mobile Banking
+The ATM service was excellent and the transaction completed quickly.,Positive,Cards
+The bank responded quickly to my complaint.,Positive,Loans & Finance
+I made a card payment yesterday.,Neutral,Branches
+The ATM is available at my local branch.,Neutral,Cards
+The credit card service has many problems.,Negative,Branches
+My issue is still unresolved.,Negative,Cards
+My card payment failed several times.,Negative,Cards
+The ATM was out of service when I needed cash.,Negative,ATM Services
+The loan process was confusing and took too long.,Negative,ATM Services
+The ATM was out of service when I needed cash.,Negative,Cards
+I checked the available balance.,Neutral,Cards
+The mobile banking app keeps crashing and is difficult to use.,Negative,ATM Services
+I contacted the bank regarding a transaction.,Neutral,Cards
+The banking application has frequent errors.,Negative,Loans & Finance
+The customer service team was very supportive.,Positive,Cards
+The branch staff were rude and unhelpful.,Negative,Online Banking
+The service quality is very poor.,Negative,Branches
+My card payment failed several times.,Negative,ATM Services
+I have a credit card from the bank.,Neutral,Customer Support
+My issue is still unresolved.,Negative,ATM Services
+I have a bank account with the bank.,Neutral,Customer Support
+The banking application has frequent errors.,Negative,Online Banking
+The banking experience was frustrating.,Negative,Customer Support
+I checked the available balance.,Neutral,Loans & Finance
+The staff provided information about my account.,Neutral,ATM Services
+The ATM was out of service when I needed cash.,Negative,Cards
+The transaction failed without a clear reason.,Negative,Cards
+The bank took too long to respond to my complaint.,Negative,Online Banking
+The branch staff were friendly and professional.,Positive,Branches
+I contacted the bank regarding a transaction.,Neutral,Branches
+My card payment failed several times.,Negative,Loans & Finance
+The loan process was simple and well explained.,Positive,Cards
+The staff explained everything clearly.,Positive,Cards
+The credit card service has been excellent.,Positive,ATM Services
+The banking experience was frustrating.,Negative,Branches
+The bank sent me a transaction notification.,Neutral,Customer Support
+I have a credit card from the bank.,Neutral,Online Banking
+My issue was resolved professionally.,Positive,Customer Support
+I appreciate the fast and secure banking experience.,Positive,ATM Services
+I downloaded the banking application.,Neutral,Customer Support
+The staff provided information about my account.,Neutral,Branches
+The mobile banking app keeps crashing and is difficult to use.,Negative,Mobile Banking
+The ATM service was excellent and the transaction completed quickly.,Positive,Online Banking
+The mobile banking app is easy to use and very fast.,Positive,Loans & Finance
+The mobile app is slow and frequently unavailable.,Negative,Mobile Banking
+The bank responded quickly to my complaint.,Positive,ATM Services
+The ATM was not working and my transaction failed.,Negative,ATM Services
+I contacted customer support about my account.,Neutral,Cards
+Customer support was helpful and resolved my issue immediately.,Positive,Online Banking
+I visited the branch to update my details.,Neutral,Online Banking
+The credit card service has been excellent.,Positive,Branches
+The mobile banking app keeps crashing and is difficult to use.,Negative,Branches
+The mobile app is convenient and reliable.,Positive,Cards
+The mobile banking app keeps crashing and is difficult to use.,Negative,Customer Support
+The loan process was simple and well explained.,Positive,Online Banking
+The service quality is very good.,Positive,Branches
+I checked my balance using the mobile app.,Neutral,Customer Support
+The card payment was smooth and secure.,Positive,Cards
+The banking application has a great user experience.,Positive,ATM Services
+I completed a bank transaction today.,Neutral,Mobile Banking
+I used online banking for a transfer.,Neutral,Cards
+The banking application has a great user experience.,Positive,ATM Services
+Opening the account took too much time.,Negative,Branches
+The bank took too long to respond to my complaint.,Negative,Online Banking
+The credit card service has many problems.,Negative,Branches
+Online banking works perfectly for my daily transactions.,Positive,Branches
+I visited the branch to update my details.,Neutral,Online Banking
+I checked my balance using the mobile app.,Neutral,Branches
+My issue was resolved professionally.,Positive,Branches
+I contacted the bank regarding a transaction.,Neutral,Mobile Banking
+I am very satisfied with the banking service.,Positive,Customer Support
+The ATM is located near the branch entrance.,Neutral,Online Banking
+The mobile app is convenient and reliable.,Positive,Loans & Finance
+Online banking works perfectly for my daily transactions.,Positive,Branches
+I used online banking for a transfer.,Neutral,Mobile Banking
+The transaction failed without a clear reason.,Negative,Loans & Finance
+I completed a bank transaction today.,Neutral,Online Banking
+Opening the account took too much time.,Negative,Loans & Finance
+Customer support was helpful and resolved my issue immediately.,Positive,Mobile Banking
+The transaction failed without a clear reason.,Negative,Customer Support
+Opening the account took too much time.,Negative,Online Banking
+The loan process was confusing and took too long.,Negative,Loans & Finance
+The branch staff were friendly and professional.,Positive,ATM Services
+The ATM was not working and my transaction failed.,Negative,Customer Support
+The transaction was completed without any problem.,Positive,Customer Support
+Customer support was helpful and resolved my issue immediately.,Positive,Branches
+The ATM was not working and my transaction failed.,Negative,Mobile Banking
+The branch staff were rude and unhelpful.,Negative,Branches
+I completed a bank transaction today.,Neutral,Loans & Finance
+The ATM service was excellent and the transaction completed quickly.,Positive,Online Banking
+My card payment failed several times.,Negative,ATM Services
+I completed a bank transaction today.,Neutral,Loans & Finance
+Online banking works perfectly for my daily transactions.,Positive,Branches
+The ATM is located near the branch entrance.,Neutral,Customer Support
+The banking experience was frustrating.,Negative,Cards
+I checked my balance using the mobile app.,Neutral,Loans & Finance
+Opening the account took too much time.,Negative,Customer Support
+The transaction failed without a clear reason.,Negative,Branches
+The mobile app is convenient and reliable.,Positive,Cards
+I visited the branch in the morning.,Neutral,Loans & Finance
+The banking application has a great user experience.,Positive,Customer Support
+The transaction was completed without any problem.,Positive,Cards
+Opening the account took too much time.,Negative,Loans & Finance
+The ATM was clean and available when I needed it.,Positive,Mobile Banking
+I have a bank account with the bank.,Neutral,Customer Support
+The mobile app is slow and frequently unavailable.,Negative,Online Banking
+The banking application has frequent errors.,Negative,Customer Support
+I received a message from customer service.,Neutral,Customer Support
+The ATM was clean and available when I needed it.,Positive,Mobile Banking
+The bank responded quickly to my complaint.,Positive,Online Banking
+Opening the account was quick and easy.,Positive,Cards
+The banking application has a great user experience.,Positive,Cards
+The transaction failed without a clear reason.,Negative,Online Banking
+I opened a new account last month.,Neutral,Online Banking
+The bank responded quickly to my complaint.,Positive,Online Banking
+I visited the branch to update my details.,Neutral,Branches
+I have a bank account with the bank.,Neutral,Branches
+The staff provided information about my account.,Neutral,Mobile Banking
+Customer support was helpful and resolved my issue immediately.,Positive,Mobile Banking
+Online banking is not working properly.,Negative,ATM Services
+The ATM was clean and available when I needed it.,Positive,Mobile Banking
+The credit card service has many problems.,Negative,Branches
+I received a message from customer service.,Neutral,Loans & Finance
+The ATM was out of service when I needed cash.,Negative,Branches
+The ATM is located near the branch entrance.,Neutral,ATM Services
+The loan process was simple and well explained.,Positive,Branches
+The staff did not explain the charges properly.,Negative,ATM Services
+Customer support was helpful and resolved my issue immediately.,Positive,Mobile Banking
+I visited the branch to update my details.,Neutral,ATM Services
+The staff explained everything clearly.,Positive,Branches
+The bank responded quickly to my complaint.,Positive,ATM Services
+The loan process was confusing and took too long.,Negative,Online Banking
+The banking application has a great user experience.,Positive,Loans & Finance
+The mobile banking app keeps crashing and is difficult to use.,Negative,Mobile Banking
+The branch staff were friendly and professional.,Positive,Mobile Banking
+The ATM is located near the branch entrance.,Neutral,Mobile Banking
+I visited the branch to update my details.,Neutral,Mobile Banking
+My issue is still unresolved.,Negative,Loans & Finance
+Customer support was helpful and resolved my issue immediately.,Positive,Cards
+I contacted the bank regarding a transaction.,Neutral,Cards
+The customer service team was very supportive.,Positive,ATM Services
+The transaction failed without a clear reason.,Negative,Customer Support
+Opening the account was quick and easy.,Positive,Loans & Finance
+Customer support was helpful and resolved my issue immediately.,Positive,ATM Services
+I visited the branch to update my details.,Neutral,Mobile Banking
+I downloaded the banking application.,Neutral,Loans & Finance
+I used online banking for a transfer.,Neutral,Customer Support
+I opened a new account last month.,Neutral,Online Banking
+The transaction failed without a clear reason.,Negative,Online Banking
+I received a message from customer service.,Neutral,Online Banking
+I used online banking for a transfer.,Neutral,Cards
+The mobile banking app keeps crashing and is difficult to use.,Negative,Online Banking
+Opening the account took too much time.,Negative,Customer Support
+I made a card payment yesterday.,Neutral,Branches
+The loan process was simple and well explained.,Positive,Cards
+The ATM is available at my local branch.,Neutral,Online Banking
+I appreciate the fast and secure banking experience.,Positive,Cards
+The customer service team was very supportive.,Positive,ATM Services
+The branch staff were rude and unhelpful.,Negative,Branches
+The loan process was simple and well explained.,Positive,Loans & Finance
+I have a bank account with the bank.,Neutral,Loans & Finance
+The loan process was simple and well explained.,Positive,Cards
+I visited the branch to update my details.,Neutral,Customer Support
+I downloaded the banking application.,Neutral,Customer Support
+I downloaded the banking application.,Neutral,Loans & Finance
+I have a bank account with the bank.,Neutral,Cards
+I have a credit card from the bank.,Neutral,Cards
+The transaction was completed without any problem.,Positive,Branches
+The branch staff were friendly and professional.,Positive,Online Banking
+I used the mobile banking app today.,Neutral,Branches
+The banking application has a great user experience.,Positive,Branches
+I have a credit card from the bank.,Neutral,Loans & Finance
+I used online banking for a transfer.,Neutral,Cards
+My issue was resolved professionally.,Positive,Mobile Banking
+Online banking is not working properly.,Negative,Cards
+I visited the branch to update my details.,Neutral,Branches
+The staff provided information about my account.,Neutral,Branches
+I received a message from customer service.,Neutral,Cards
+I am very satisfied with the banking service.,Positive,Cards
+My card payment failed several times.,Negative,Loans & Finance
+My card payment failed several times.,Negative,Branches
+The ATM service was excellent and the transaction completed quickly.,Positive,Cards
+I submitted a loan application.,Neutral,Customer Support
+The bank responded quickly to my complaint.,Positive,Loans & Finance
+The branch staff were friendly and professional.,Positive,ATM Services
+The banking application has frequent errors.,Negative,Mobile Banking
+I appreciate the fast and secure banking experience.,Positive,Cards
+The loan process was confusing and took too long.,Negative,Loans & Finance
+The bank responded quickly to my complaint.,Positive,ATM Services
+The ATM was not working and my transaction failed.,Negative,Customer Support
+I received a message from customer service.,Neutral,Mobile Banking
+I submitted a loan application.,Neutral,Branches
+Customer support was helpful and resolved my issue immediately.,Positive,Branches
+The banking experience was frustrating.,Negative,Mobile Banking
+I used the mobile banking app today.,Neutral,Loans & Finance
+I completed a bank transaction today.,Neutral,Cards
+The ATM service was excellent and the transaction completed quickly.,Positive,ATM Services
+The credit card service has many problems.,Negative,Branches
+The staff provided information about my account.,Neutral,Mobile Banking
+I contacted the bank regarding a transaction.,Neutral,Customer Support
+The customer service team was unresponsive.,Negative,Customer Support
+I have a bank account with the bank.,Neutral,Mobile Banking
+My issue is still unresolved.,Negative,Loans & Finance
+The ATM was out of service when I needed cash.,Negative,Customer Support
+The customer service team was unresponsive.,Negative,ATM Services
+The staff did not explain the charges properly.,Negative,Mobile Banking
+The transaction was completed without any problem.,Positive,ATM Services
+The banking experience was frustrating.,Negative,Loans & Finance
+Customer support was helpful and resolved my issue immediately.,Positive,Loans & Finance
+I checked my balance using the mobile app.,Neutral,Loans & Finance
+The loan process was simple and well explained.,Positive,Mobile Banking
+The ATM was clean and available when I needed it.,Positive,ATM Services
+I made a card payment yesterday.,Neutral,Branches
+I used online banking for a transfer.,Neutral,Online Banking
+Customer support was helpful and resolved my issue immediately.,Positive,Loans & Finance
+I have a credit card from the bank.,Neutral,Loans & Finance
+Online banking is not working properly.,Negative,Online Banking
+I downloaded the banking application.,Neutral,Loans & Finance
+I checked the available balance.,Neutral,Online Banking
+I checked my balance using the mobile app.,Neutral,Customer Support
+The ATM is located near the branch entrance.,Neutral,ATM Services
+The bank took too long to respond to my complaint.,Negative,ATM Services
+I made a card payment yesterday.,Neutral,Mobile Banking
+The transaction failed without a clear reason.,Negative,ATM Services
+I visited the branch to update my details.,Neutral,ATM Services
+I appreciate the fast and secure banking experience.,Positive,Cards
+My card payment failed several times.,Negative,ATM Services
+The service quality is very poor.,Negative,Online Banking
+The banking application has frequent errors.,Negative,Online Banking
+I opened a new account last month.,Neutral,Loans & Finance
+The mobile app is slow and frequently unavailable.,Negative,Cards
+The banking application has a great user experience.,Positive,Mobile Banking
+The card payment was smooth and secure.,Positive,Branches
+The banking application has frequent errors.,Negative,ATM Services
+My card payment failed several times.,Negative,Loans & Finance
+I opened a new account last month.,Neutral,Customer Support
+I submitted a loan application.,Neutral,ATM Services
+The banking application has a great user experience.,Positive,Branches
+I have a credit card from the bank.,Neutral,Customer Support
+I am very disappointed with the banking service.,Negative,Online Banking
+I have a credit card from the bank.,Neutral,Mobile Banking
+Opening the account was quick and easy.,Positive,Mobile Banking
+The ATM is located near the branch entrance.,Neutral,Cards
+I have a credit card from the bank.,Neutral,Mobile Banking
+I visited the branch to update my details.,Neutral,Branches
+The mobile app is slow and frequently unavailable.,Negative,Online Banking
+The customer service team was very supportive.,Positive,Branches
+I checked the available balance.,Neutral,Mobile Banking
+Opening the account took too much time.,Negative,Branches
+The bank took too long to respond to my complaint.,Negative,Customer Support
+The branch staff were rude and unhelpful.,Negative,Online Banking
+I made a card payment yesterday.,Neutral,Online Banking
+The ATM was not working and my transaction failed.,Negative,Mobile Banking
+I submitted a loan application.,Neutral,Loans & Finance
+I visited the branch to update my details.,Neutral,Branches
+The staff did not explain the charges properly.,Negative,ATM Services
+I submitted a loan application.,Neutral,Mobile Banking
+The branch staff were friendly and professional.,Positive,Loans & Finance
+My issue was resolved professionally.,Positive,Loans & Finance
+I made a card payment yesterday.,Neutral,Customer Support
+The ATM is available at my local branch.,Neutral,Customer Support
+The service quality is very good.,Positive,Mobile Banking
+The branch staff were rude and unhelpful.,Negative,Branches
+I made a card payment yesterday.,Neutral,Loans & Finance
+The service quality is very poor.,Negative,Cards
+I used the mobile banking app today.,Neutral,Cards
+The loan process was confusing and took too long.,Negative,Customer Support
+The banking application has a great user experience.,Positive,Online Banking
+I submitted a loan application.,Neutral,Customer Support
+The mobile banking app keeps crashing and is difficult to use.,Negative,Loans & Finance
+The mobile banking app keeps crashing and is difficult to use.,Negative,Customer Support
+I am very satisfied with the banking service.,Positive,Branches
+The bank responded quickly to my complaint.,Positive,ATM Services
+The service quality is very good.,Positive,Mobile Banking
+The ATM was clean and available when I needed it.,Positive,Online Banking
+I have a credit card from the bank.,Neutral,ATM Services
+I visited the branch in the morning.,Neutral,Online Banking
+The bank took too long to respond to my complaint.,Negative,Customer Support
+The transaction was completed without any problem.,Positive,Branches
+I used online banking for a transfer.,Neutral,ATM Services
+The branch staff were rude and unhelpful.,Negative,Cards
+Opening the account took too much time.,Negative,Customer Support
+The loan process was confusing and took too long.,Negative,Branches
+The bank responded quickly to my complaint.,Positive,ATM Services
+The bank took too long to respond to my complaint.,Negative,Customer Support
+The banking application has a great user experience.,Positive,ATM Services
+The service quality is very good.,Positive,Online Banking
+Opening the account took too much time.,Negative,ATM Services
+The service quality is very good.,Positive,Mobile Banking
+I visited the branch in the morning.,Neutral,Loans & Finance
+I completed a bank transaction today.,Neutral,Customer Support
+The banking application has a great user experience.,Positive,Online Banking
+The bank sent me a transaction notification.,Neutral,Customer Support
+The staff explained everything clearly.,Positive,Mobile Banking
+I am very disappointed with the banking service.,Negative,Online Banking
+The service quality is very poor.,Negative,Customer Support
+The ATM was not working and my transaction failed.,Negative,Online Banking
+Customer support was helpful and resolved my issue immediately.,Positive,Branches
+The branch staff were friendly and professional.,Positive,Branches
+I used the mobile banking app today.,Neutral,Loans & Finance
+I contacted customer support about my account.,Neutral,ATM Services
+The staff did not explain the charges properly.,Negative,Branches
+I am very disappointed with the banking service.,Negative,Customer Support
+The staff provided information about my account.,Neutral,Customer Support
+Opening the account took too much time.,Negative,Loans & Finance
+The bank responded quickly to my complaint.,Positive,Cards
+The staff provided information about my account.,Neutral,Mobile Banking
+My issue is still unresolved.,Negative,Branches
+The branch staff were rude and unhelpful.,Negative,Loans & Finance
+The bank sent me a transaction notification.,Neutral,Loans & Finance
+The banking application has a great user experience.,Positive,Online Banking
+The staff explained everything clearly.,Positive,ATM Services
+I submitted a loan application.,Neutral,Online Banking
+The mobile banking app is easy to use and very fast.,Positive,Mobile Banking
+I am very satisfied with the banking service.,Positive,Loans & Finance
+I contacted the bank regarding a transaction.,Neutral,Mobile Banking
+I completed a bank transaction today.,Neutral,Loans & Finance
+I used the mobile banking app today.,Neutral,Customer Support
+I have a credit card from the bank.,Neutral,Customer Support
+The staff explained everything clearly.,Positive,Cards
+The transaction failed without a clear reason.,Negative,Branches
+I made a card payment yesterday.,Neutral,Customer Support
+The branch staff were friendly and professional.,Positive,Mobile Banking
+The bank responded quickly to my complaint.,Positive,Branches
+I used online banking for a transfer.,Neutral,Loans & Finance
+I appreciate the fast and secure banking experience.,Positive,Customer Support
+My issue is still unresolved.,Negative,Loans & Finance
+The branch staff were rude and unhelpful.,Negative,Cards
+I contacted customer support about my account.,Neutral,ATM Services
+The bank took too long to respond to my complaint.,Negative,Online Banking
+The loan process was simple and well explained.,Positive,ATM Services
+I contacted customer support about my account.,Neutral,Customer Support
